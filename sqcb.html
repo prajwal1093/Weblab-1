@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Squares and cubes </title>
+<style>
+table,th,td{ 
+border:1px solid black;
+border-collapse: collapse;
+padding: 5px;
+ text-align: left;
+background-color:#80ffff;
+ }
+ td:hover
+ {
+ background-color:#388ff9
+ }
+ th {
+  background-color: #0080ff;
+  color: white;
+}
+ </style>
+<script>
+
+document.write("<center><table><tr><th>Number</th><th>Squares</th><th>Cubes</th></tr>")
+for(var n=0;n<=10;n++)
+{
+document.write("<tr><td>"+n+"</td><td>"+n*n+"</td><td>"+n*n*n+"</td></tr>")
+}
+document.write("</table></center>")
+
+</script>
+</head>
+<body>
+</body>
+
+</html>
